@@ -2,7 +2,7 @@ import base64
 from github import Github
 from pprint import pprint
 
-username = "Jamessihang"
+username = "{username}"
 g = Github()
 user = g.get_user(username)
 
